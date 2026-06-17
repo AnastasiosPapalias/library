@@ -34,7 +34,7 @@ Repository: github.com/AnastasiosPapalias/Plan9
 | Part 5 — Integration Guide | How to use this dataset: RAG pipelines, SFT fine-tuning, symbol-aware code completion |
 | Part 6 — Supplementary Reference | AI Reasoning Protocol, dirread/dirreadall, ioproc, factotum/auth, tokenize/getfields |
 | symbol_map.jsonl | 107 typed symbols with full metadata for code completion tooling (JSONL) |
-| plan9_dataset.jsonl | 77 pre-chunked RAG records with topic, embedding tags, and importance field (JSONL) |
+| plan9_dataset.jsonl | 94 pre-chunked RAG records with topic, embedding tags, and importance field (JSONL) |
 | plan9_programmers_manual_community_edition.md | This document in Markdown format |
 | plan9_programmers_manual_community_edition.docx | This document in Word format |
 | README.md | GitHub landing page with quick-start guide |
@@ -57,7 +57,7 @@ This edition is primarily intended for AI consumption, enabling AI agents to lea
 | L4 — Code Patterns | code_patterns.md | 10 complete example programs | 10 |
 | L5 — Anti-POSIX | anti_patterns.md | 16 WRONG→CORRECT→WHY blocks | 16 |
 | L6 — Reasoning | plan9_dataset.jsonl | Explicit 4-step decision protocol | 1 |
-| L7 — RAG Chunks | plan9_dataset.jsonl | Vector-database ready, tagged, importanced | 77 |
+| L7 — RAG Chunks | plan9_dataset.jsonl | Vector-database ready, tagged, importanced | 94 |
 
 
 # Part 1 — Structured API Reference
