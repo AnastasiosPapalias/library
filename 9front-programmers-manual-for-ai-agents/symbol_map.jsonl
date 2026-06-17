@@ -1,0 +1,107 @@
+{"symbol": "readn", "type": "library function", "signature": "long readn(int fd, void *buf, long nbytes)", "importance": "high", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "pread", "type": "system call", "signature": "long pread(int fd, void *buf, long nbytes, vlong offset)", "importance": "high", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "pwrite", "type": "system call", "signature": "long pwrite(int fd, void *buf, long nbytes, vlong offset)", "importance": "high", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "dup", "type": "system call", "signature": "int dup(int oldfd, int newfd)", "importance": "high", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "pipe", "type": "system call", "signature": "int pipe(int fd[2])", "importance": "high", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "seek", "type": "system call", "signature": "vlong seek(int fd, vlong n, int type)", "importance": "medium", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "remove", "type": "system call", "signature": "int remove(char *file)", "importance": "medium", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "open", "type": "system call", "signature": "int open(char *file, int omode)", "importance": "critical", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "create", "type": "system call", "signature": "int create(char *file, int omode, ulong perm)", "importance": "critical", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "close", "type": "system call", "signature": "int close(int fd)", "importance": "critical", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "read", "type": "system call", "signature": "long read(int fd, void *buf, long nbytes)", "importance": "critical", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "write", "type": "system call", "signature": "long write(int fd, void *buf, long nbytes)", "importance": "critical", "category": "file_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "fork", "type": "library function", "signature": "int fork(void)", "importance": "high", "category": "process", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "execl", "type": "library function", "signature": "int execl(char *name, ...)", "importance": "medium", "category": "process", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "_exits", "type": "system call", "signature": "void _exits(char *msg)", "importance": "medium", "category": "process", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "await", "type": "system call", "signature": "int await(char *s, int n)", "importance": "medium", "category": "process", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "waitpid", "type": "library function", "signature": "int waitpid(void)", "importance": "medium", "category": "process", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "rfork", "type": "system call", "signature": "int rfork(int flags)", "importance": "critical", "category": "process", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "exec", "type": "system call", "signature": "int exec(char name, char argv[])", "importance": "critical", "category": "process", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "exits", "type": "system call", "signature": "void exits(char *msg)", "importance": "critical", "category": "process", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "wait", "type": "library function", "signature": "Waitmsg* wait(void)", "importance": "critical", "category": "process", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "unmount", "type": "system call", "signature": "int unmount(char name, char old)", "importance": "medium", "category": "namespace", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "fauth", "type": "system call", "signature": "int fauth(int fd, char *aname)", "importance": "medium", "category": "namespace", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "bind", "type": "system call", "signature": "int bind(char name, char old, int flag)", "importance": "critical", "category": "namespace", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "mount", "type": "system call", "signature": "int mount(int fd, int afd, char old, int flag, char aname)", "importance": "critical", "category": "namespace", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "ERRMAX", "type": "constant", "signature": "maximum error string length in bytes", "importance": "high", "category": "error_handling", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "rerrstr", "type": "library function", "signature": "void rerrstr(char *err, uint nerr)", "importance": "medium", "category": "error_handling", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "errstr", "type": "system call", "signature": "int errstr(char *err, uint nerr)", "importance": "critical", "category": "error_handling", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "werrstr", "type": "library function", "signature": "void werrstr(char *fmt, ...)", "importance": "critical", "category": "error_handling", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "sysfatal", "type": "library function", "signature": "void sysfatal(char *fmt, ...)", "importance": "critical", "category": "error_handling", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "notify", "type": "system call", "signature": "int notify(void (f)(void, char*))", "importance": "high", "category": "notification", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "noted", "type": "system call", "signature": "int noted(int v)", "importance": "high", "category": "notification", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "postnote", "type": "library function", "signature": "int postnote(int group, int pid, char *note)", "importance": "medium", "category": "notification", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "alarm", "type": "system call", "signature": "ulong alarm(ulong millisecs)", "importance": "medium", "category": "notification", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "atnotify", "type": "library function", "signature": "int atnotify(int (f)(void, char*), int in)", "importance": "critical", "category": "notification", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "announce", "type": "library function", "signature": "int announce(char addr, char dir)", "importance": "high", "category": "networking", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "listen", "type": "library function", "signature": "int listen(char dir, char newdir)", "importance": "high", "category": "networking", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "accept", "type": "library function", "signature": "int accept(int ctl, char *dir)", "importance": "high", "category": "networking", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "netmkaddr", "type": "library function", "signature": "char netmkaddr(char addr, char defnet, char defservice)", "importance": "medium", "category": "networking", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "hangup", "type": "library function", "signature": "int hangup(int ctl)", "importance": "low", "category": "networking", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "dial", "type": "library function", "signature": "int dial(char addr, char local, char dir, int cfdp)", "importance": "critical", "category": "networking", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Brdstr", "type": "library function", "signature": "char Brdstr(Biobufhdr bp, int delim, int nulldelim)", "importance": "high", "category": "buffered_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Bgetc", "type": "library function", "signature": "int Bgetc(Biobufhdr *bp)", "importance": "high", "category": "buffered_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Bprint", "type": "library function", "signature": "int Bprint(Biobufhdr bp, char fmt, ...)", "importance": "high", "category": "buffered_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Bflush", "type": "library function", "signature": "int Bflush(Biobufhdr *bp)", "importance": "medium", "category": "buffered_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Bopen", "type": "library function", "signature": "Biobuf Bopen(char name, int mode)", "importance": "critical", "category": "buffered_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Binit", "type": "library function", "signature": "int Binit(Biobuf *bp, int fd, int mode)", "importance": "critical", "category": "buffered_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Brdline", "type": "library function", "signature": "void Brdline(Biobufhdr bp, int delim)", "importance": "critical", "category": "buffered_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Bgetrune", "type": "library function", "signature": "long Bgetrune(Biobufhdr *bp)", "importance": "critical", "category": "buffered_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Bterm", "type": "library function", "signature": "int Bterm(Biobufhdr *bp)", "importance": "critical", "category": "buffered_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Beof", "type": "constant", "signature": "returned by Bgetc, Bgetrune, Binit on EOF or error", "importance": "critical", "category": "buffered_io", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "proccreate", "type": "library function", "signature": "int proccreate(void (f)(void), void *arg, uint stacksize)", "importance": "high", "category": "thread", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "alt", "type": "library function", "signature": "int alt(Alt *alts)", "importance": "high", "category": "thread", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "threadmain", "type": "entry point", "signature": "void threadmain(int argc, char *argv[])", "importance": "critical", "category": "thread", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "threadcreate", "type": "library function", "signature": "int threadcreate(void (f)(void), void *arg, uint stacksize)", "importance": "critical", "category": "thread", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "threadexits", "type": "library function", "signature": "void threadexits(char *msg)", "importance": "critical", "category": "thread", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "threadexitsall", "type": "library function", "signature": "void threadexitsall(char *msg)", "importance": "critical", "category": "thread", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "chancreate", "type": "library function", "signature": "Channel* chancreate(int elemsize, int bufsize)", "importance": "critical", "category": "thread", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "send", "type": "library function", "signature": "int send(Channel c, void v)", "importance": "critical", "category": "thread", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "recv", "type": "library function", "signature": "int recv(Channel c, void v)", "importance": "critical", "category": "thread", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "rendezvous", "type": "system call", "signature": "void rendezvous(void tag, void *val)", "importance": "high", "category": "synchronisation", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "rlock", "type": "library function", "signature": "void rlock(RWLock *l)", "importance": "high", "category": "synchronisation", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "wlock", "type": "library function", "signature": "void wlock(RWLock *l)", "importance": "high", "category": "synchronisation", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "lock", "type": "library function", "signature": "void lock(Lock *l)", "importance": "medium", "category": "synchronisation", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "rsleep", "type": "library function", "signature": "void rsleep(Rendez *r)", "importance": "medium", "category": "synchronisation", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "incref", "type": "library function", "signature": "void incref(Ref *r)", "importance": "medium", "category": "synchronisation", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "decref", "type": "library function", "signature": "long decref(Ref *r)", "importance": "medium", "category": "synchronisation", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "qlock", "type": "library function", "signature": "void qlock(QLock *l)", "importance": "critical", "category": "synchronisation", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "qunlock", "type": "library function", "signature": "void qunlock(QLock *l)", "importance": "critical", "category": "synchronisation", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "dirfstat", "type": "library function", "signature": "Dir* dirfstat(int fd)", "importance": "high", "category": "file_metadata", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "dirread", "type": "library function", "signature": "int dirread(int fd, Dir **buf)", "importance": "high", "category": "file_metadata", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "dirreadall", "type": "library function", "signature": "long dirreadall(int fd, Dir **buf)", "importance": "high", "category": "file_metadata", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Qid", "type": "struct", "signature": "path unique per server; vers increments on each write", "importance": "high", "category": "file_metadata", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "dirwstat", "type": "library function", "signature": "int dirwstat(char name, Dir dir)", "importance": "medium", "category": "file_metadata", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "nulldir", "type": "library function", "signature": "void nulldir(Dir *d)", "importance": "medium", "category": "file_metadata", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "dirstat", "type": "library function", "signature": "Dir dirstat(char name)", "importance": "critical", "category": "file_metadata", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Dir", "type": "struct", "signature": "from dirstat(); free() once frees struct and all embedded strings", "importance": "critical", "category": "file_metadata", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "snprint", "type": "library function", "signature": "int snprint(char s, int len, char fmt, ...)", "importance": "high", "category": "formatting", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "seprint", "type": "library function", "signature": "char seprint(char s, char e, char fmt, ...)", "importance": "high", "category": "formatting", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "smprint", "type": "library function", "signature": "char smprint(char fmt, ...)", "importance": "high", "category": "formatting", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "sprint", "type": "library function", "signature": "int sprint(char s, char fmt, ...)", "importance": "low", "category": "formatting", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "print", "type": "library function", "signature": "int print(char *fmt, ...)", "importance": "critical", "category": "formatting", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "fprint", "type": "library function", "signature": "int fprint(int fd, char *fmt, ...)", "importance": "critical", "category": "formatting", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "utflen", "type": "library function", "signature": "int utflen(char *s)", "importance": "high", "category": "unicode", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Runeself", "type": "constant", "signature": "Runes < Runeself are single-byte ASCII-compatible", "importance": "high", "category": "unicode", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Runeerror", "type": "constant", "signature": "Unicode replacement character; returned on invalid input", "importance": "high", "category": "unicode", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "fullrune", "type": "library function", "signature": "int fullrune(char *s, int n)", "importance": "medium", "category": "unicode", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "Rune", "type": "typedef", "signature": "one Unicode code point (32-bit)", "importance": "critical", "category": "unicode", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "chartorune", "type": "library function", "signature": "int chartorune(Rune r, char s)", "importance": "critical", "category": "unicode", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "runetochar", "type": "library function", "signature": "int runetochar(char buf, Rune r)", "importance": "critical", "category": "unicode", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "UTFmax", "type": "constant", "signature": "maximum bytes needed to encode any Rune", "importance": "critical", "category": "unicode", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "argv0", "type": "global variable", "signature": "program name (set by ARGBEGIN); used by sysfatal in error messages", "importance": "high", "category": "argument_parsing", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "ARGBEGIN", "type": "macro", "signature": "starts option parsing loop in main(); modifies argc/argv in place; se…", "importance": "critical", "category": "argument_parsing", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "ARGEND", "type": "macro", "signature": "ends ARGBEGIN block; after it, argc/argv point to non-flag arguments", "importance": "critical", "category": "argument_parsing", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "ARGF", "type": "macro", "signature": "returns next argument as string (rest of flag or next argv); nil if m…", "importance": "critical", "category": "argument_parsing", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "mallocz", "type": "library function", "signature": "void* mallocz(ulong size, int clr)", "importance": "high", "category": "memory", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "malloc", "type": "library function", "signature": "void* malloc(ulong size)", "importance": "critical", "category": "memory", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "free", "type": "library function", "signature": "void free(void *p)", "importance": "critical", "category": "memory", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "uvlong", "type": "typedef", "signature": "64-bit unsigned integer; print with %ulld", "importance": "high", "category": "types", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "ulong", "type": "typedef", "signature": "unsigned long; print with %lud", "importance": "high", "category": "types", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "nelem", "type": "macro", "signature": "nelem(array)", "importance": "high", "category": "types", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "USED", "type": "macro", "signature": "USED(x)", "importance": "medium", "category": "types", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "vlong", "type": "typedef", "signature": "64-bit signed integer; print with %lld", "importance": "critical", "category": "types", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "nil", "type": "constant", "signature": "Plan 9's NULL; defined as ((void*)0)", "importance": "critical", "category": "types", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "getenv", "type": "library function", "signature": "char getenv(char name)", "importance": "high", "category": "environment", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "putenv", "type": "library function", "signature": "int putenv(char name, char val)", "importance": "medium", "category": "environment", "header": "<libc.h>", "source": "man.aiju.de"}
+{"symbol": "tokenize", "type": "library function", "signature": "int tokenize(char str, char *args, int maxargs)", "importance": "high", "category": "strings", "header": "<libc.h>", "source": "man.aiju.de"}
