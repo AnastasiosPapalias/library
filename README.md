@@ -8,6 +8,28 @@ All community editions are free. Paid editions available via [acopon.online](htt
 
 ## Books
 
+### 9front Cybersecurity Hardening Guide
+
+<a href="9front-cybersecurity-hardening-guide/">
+  <img src="9front-cybersecurity-hardening-guide/cover.png" alt="9front Cybersecurity Hardening Guide" width="200"/>
+</a>
+
+**A practical security hardening guide for Plan 9 / 9front systems.**
+
+Covers namespace isolation, factotum authentication, 9P protocol security, rfork process isolation, and the complete attack surface map. Includes a STIX 2.1 threat dataset (12 attack-pattern objects), Mermaid architecture diagrams, and full ATT&CK mappings. Community Edition: ~25 pages, CC BY 4.0.
+
+| | |
+| --- | --- |
+| **Author** | Anastasios Papalias |
+| **Edition** | Community Edition — Free |
+| **Year** | 2026 |
+| **License** | CC BY 4.0 |
+| **Format** | Markdown · PDF · JSONL |
+| **Full Edition** | [acopon.online](https://acopon.online) |
+| **Folder** | [`9front-cybersecurity-hardening-guide/`](9front-cybersecurity-hardening-guide/) |
+
+---
+
 ### 9front Programmer's Manual for AI Agents
 
 <a href="9front-programmers-manual-for-ai-agents/">
