@@ -25,7 +25,7 @@ Covers namespace isolation, factotum authentication, 9P protocol security, rfork
 | **Year** | 2026 |
 | **License** | CC BY 4.0 |
 | **Format** | Markdown · PDF · JSONL |
-| **Full Edition** | [acopon.online](https://acopon.online) |
+| **Full Edition** | [acopon.online](https://acopon.online) Planned for release |
 | **Folder** | [`9front-cybersecurity-hardening-guide/`](9front-cybersecurity-hardening-guide/) |
 
 ---
