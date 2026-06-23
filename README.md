@@ -50,6 +50,28 @@ Built so that AI agents can write correct native 9front C code without hallucina
 
 ---
 
+### 9front rc Shell Scripting Field Guide
+
+<a href="rc-shell-scripting-field-guide/">
+  <img src="rc-shell-scripting-field-guide/cover.png" alt="9front rc Shell Scripting Field Guide" width="200"/>
+</a>
+
+**A practical, example-driven guide to the rc shell — and a polemic about why we still run the worse-designed one.**
+
+Tom Duff's rc, framed against bash chapter by chapter: one quoting rule, lists, `~`, `fn`, `rfork`, honest error handling, Plan 9 as a system. Wrapped in a eulogy, seven philosophical interludes, and a reckoning. Shipped as a fully illustrated **EC-Comics horror-pulp magazine** in two collectible editions — **🌑 Pale Moon** (cold) and **🩸 Red River** (lurid) — 76 pages each.
+
+| | |
+| --- | --- |
+| **Author** | Anastasios Papalias |
+| **Edition** | Community Edition — Free · two printings (Pale Moon · Red River) |
+| **Year** | 2026 |
+| **License** | CC BY 4.0 |
+| **Format** | PDF (illustrated magazine, 6×9″) |
+| **Full Edition** | [acopon.online](https://acopon.online) |
+| **Folder** | [`rc-shell-scripting-field-guide/`](rc-shell-scripting-field-guide/) |
+
+---
+
 ## About Acopon
 
 [Acopon](https://acopon.online) is the personal publishing imprint of Anastasios Papalias. Paid full editions of select titles are available there.
